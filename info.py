@@ -28,7 +28,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 START_MSG = """
 Hi {first_name},🙋 
 
-**I'm Media Search bot.**😁
+**I'm Media Search bot.**😉
 
 Here you can search files in inline mode. Just press following buttons and start searching.
 
