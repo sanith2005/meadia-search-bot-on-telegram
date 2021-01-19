@@ -31,7 +31,7 @@ Check `sample_info.py` before editing `info.py` file
 * `CHANNELS`: Username or ID of channel or group. Separate multiple IDs by space
 * `ADMINS`: Username or ID of Admin. Separate multiple Admins by space
 * `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/dsuTn4qV2GA)
-* `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/dsuTn4qV2GA)
+* `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com). 
 
 ##### Optional Variables
 * `COLLECTION_NAME`: Name of the collections. Defaults to Telegram_files. If you going to use same database, then use different collection name for each bot
@@ -40,7 +40,7 @@ Check `sample_info.py` before editing `info.py` file
 * `USE_CAPTION_FILTER`: Whether bot should use captions to improve search results. (True/False)
 * `AUTH_USERS`: Username or ID of users to give access of inline search. Separate multiple users by space. Leave it empty if you don't want to restrict bot usage.
 * `AUTH_CHANNEL`: Username or ID of channel. Without subscribing this channel users cannot use bot.
-* `INVITE_MSG`: Auth channel invitation message මෙන්න මෙක දාන්න {first_name} {last_name} ඉන්වයිට් මෑසෙජ් එකට එතකොට user ගේ ෆස්ට් නේම ලාස්ට් නේම් මැසෙජ් එකේ පෙන්නවා පෙන්නවා.
+* `INVITE_MSG`: Auth channel invitation message 
 
 ### Admin commands
 ```
@@ -54,11 +54,5 @@ logger - Get log file
 * Run [one_time_indexer.py](one_time_indexer.py) file to save old files in the database that are not indexed yet.
 * You can use `|` to separate query and file type while searching for specific type of file. For example: `Avengers | video`
 * If you don't want to create a channel or group, use your chat ID / username as the channel ID. When you send a file to a bot, it will be saved in the database.
-* මෙහි සියල්ලක් ම සිංහලට පරිවර්තනය කර ඇත ඉන්ලයින් බොට් එක 
-### Contributions
-Contributions are welcome.
 
-### Thanks to [Pyrogram](https://github.com/pyrogram/pyrogram)
 
-### License
-Code released under [The GNU General Public License](LICENSE).
